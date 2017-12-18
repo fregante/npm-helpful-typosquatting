@@ -1,0 +1,11 @@
+{
+  "name": "{TYPO}",
+  "version": "{VERSION}",
+  "description": "Did you mean '{PACKAGE}'? {URL}",
+  "repository": "bfred-it/npm-helpful-typosquatting",
+  "scripts": {
+    "preinstall": "node ./redirect-message && exit 1"
+  },
+  "author": "Federico Brigante <npm@bfred.it> (https://twitter.com/bfred_it)",
+  "license": "MIT"
+}
