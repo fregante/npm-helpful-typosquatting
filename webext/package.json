@@ -1,0 +1,12 @@
+{
+  "name": "webext",
+  "version": "1.0.1",
+  "description": "Did you mean Mozilla’s 'web-ext'? https://github.com/mozilla/web-ext",
+  "keywords": [],
+  "scripts": {
+    "deprecate-self": "npm deprecate $npm_package_name@\"*\" \"$npm_package_description\"",
+    "preinstall": "node ./redirect-message && exit 1"
+  },
+  "author": "Federico Brigante <npm@bfred.it> (https://twitter.com/bfred_it)",
+  "license": "MIT"
+}
