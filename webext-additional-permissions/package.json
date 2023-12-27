@@ -4,7 +4,7 @@
   "description": "The package was renamed to `webext-permissions`",
   "keywords": [],
   "scripts": {
-    "deprecate-self": "npm deprecate $npm_package_name@$npm_package_version \"$npm_package_description\"",
+    "deprecate-self": "npm deprecate $npm_package_name@$npm_package_version \"$(npm pkg get description)\"",
     "preinstall": "node ./redirect-message && exit 1",
     "postpublish": "npm run deprecate-self"
   },
