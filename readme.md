@@ -4,4 +4,4 @@ Typosquatting for a good cause. Will block malicious typosquatting and redirect 
 
 Feel free to reuse the template and helpfully typosquat yourself.
 
-MIT @ Federico Brigante - [Twitter](https://twitter.com/bfred_it)
+MIT © [Federico Brigante](https://fregante.com)

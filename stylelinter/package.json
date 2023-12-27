@@ -7,6 +7,6 @@
     "deprecate-self": "npm deprecate $npm_package_name@\"*\" \"$npm_package_description\"",
     "preinstall": "node ./redirect-message && exit 1"
   },
-  "author": "Federico Brigante <npm@bfred.it> (https://twitter.com/bfred_it)",
+  "author": "Federico Brigante <me@fregante.com> (https://fregante.com)",
   "license": "MIT"
 }
