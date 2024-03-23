@@ -1,6 +1,6 @@
 {
   "name": "webext-domain-permission-toggle",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "The package was renamed to `webext-permission-toggle`",
   "keywords": [],
   "scripts": {

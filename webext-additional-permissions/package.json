@@ -1,6 +1,6 @@
 {
   "name": "webext-additional-permissions",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "The package was renamed to `webext-permissions`",
   "keywords": [],
   "scripts": {
