@@ -1,0 +1,13 @@
+{
+  "name": "webext-domain-permission-toggle",
+  "version": "5.0.0",
+  "description": "The package was renamed to `webext-permission-toggle`",
+  "keywords": [],
+  "scripts": {
+    "deprecate-self": "npm deprecate $npm_package_name@$npm_package_version \"$(npm pkg get description)\"",
+    "preinstall": "node ./redirect-message && exit 1",
+    "postpublish": "npm run deprecate-self"
+  },
+  "author": "Federico Brigante <me@fregante.com> (https://fregante.com)",
+  "license": "MIT"
+}
