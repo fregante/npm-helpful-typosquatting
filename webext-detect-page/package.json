@@ -1,0 +1,13 @@
+{
+  "name": "webext-detect-page",
+  "version": "6.0.0",
+  "description": "The package was renamed to `webext-detect`",
+  "keywords": [],
+  "scripts": {
+    "deprecate-self": "npm deprecate $npm_package_name@$npm_package_version \"$(npm pkg get description)\"",
+    "preinstall": "node ./redirect-message && exit 1",
+    "postpublish": "npm run deprecate-self"
+  },
+  "author": "Federico Brigante <me@fregante.com> (https://fregante.com)",
+  "license": "MIT"
+}
